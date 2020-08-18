@@ -1,0 +1,44 @@
+#main {
+  background-color: #222327;
+  height: 100vh;
+
+  .row-counters {
+    height: 49vh;
+
+    padding-top: 15px;
+
+    .col-counter {
+      padding-right: 15px;
+    }
+
+    .col-counter:first-of-type {
+      padding-left: 0;
+    }
+
+    .col-counter:last-of-type {
+      padding-right: 0;
+    }
+
+    .counter-text {
+      height: 100%;
+      color: aliceblue;
+      padding: 15px;
+
+      .row {
+        margin-bottom: 15px;
+      }
+
+      .row:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .current-level span {
+        text-shadow: 0 6px 0 rgba(46, 150, 150, 1);
+        font-size: 10rem;
+        font-weight: bold;
+      }
+
+
+    }
+  }
+}
